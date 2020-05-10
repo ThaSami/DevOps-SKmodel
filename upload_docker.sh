@@ -5,11 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
-
+dockerpath="thasami/udacity"
 # Step 2:  
 # Authenticate & tag
-echo "Docker ID and Image: $dockerpath"
 
+echo "Docker ID and Image: $dockerpath"
+docker tag thasami/udacity thasami/udacity:1.0
+docker login --username=thasami
 # Step 3:
 # Push image to a docker repository
+docker push thasami/udacity
