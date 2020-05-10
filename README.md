@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/github/ThaSami/DevOpsMicro.svg?style=svg)](https://app.circleci.com/pipelines/github/ThaSami/DevOpsMicro)
+[![ThaSami](https://circleci.com/github/ThaSami/DevOpsMicro.svg?style=svg)](https://app.circleci.com/pipelines/github/ThaSami/DevOpsMicro)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
