@@ -10,4 +10,4 @@ docker build . -t thasami/udacity
 docker images
 # Step 3: 
 # Run flask app
-docker run -p 80:80 thasami/udacity
+docker run -p 8080:80 thasami/udacity

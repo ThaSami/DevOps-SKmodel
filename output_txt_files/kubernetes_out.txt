@@ -1,4 +1,6 @@
 pod/udacity-devops created
 NAME             READY   STATUS              RESTARTS   AGE
 udacity-devops   0/1     ContainerCreating   0          0s
-Starting to serve on 127.0.0.1:8001
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080

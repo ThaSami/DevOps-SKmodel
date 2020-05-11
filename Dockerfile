@@ -2,12 +2,13 @@ FROM python:3.7.3-stretch
 
 
 WORKDIR /k8s
-COPY requirements.txt ./
-COPY Makefile ./
-RUN make install
-COPY app.py ./
 RUN mkdir model_data
+
+COPY requirements.txt Makefile app.py ./
 COPY model_data ./model_data
+
+RUN make install
+
 
 EXPOSE 80
 
