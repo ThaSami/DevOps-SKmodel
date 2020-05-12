@@ -2,10 +2,8 @@
 
 dockerpath="thasami/udacity"
 
-(kubectl run --image=$dockerpath udacity-devops --port=80)
+kubectl run --image=$dockerpath udacity-devops --port=80
 
-kubectl get pods
-
-sleep 10
+kubectl get pods -w
 
 kubectl port-forward udacity-devops 8080:80
